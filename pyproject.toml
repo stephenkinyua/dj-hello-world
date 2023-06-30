@@ -1,0 +1,16 @@
+[tool.poetry]
+name = "dj-hello-world"
+version = "0.1.0"
+description = ""
+authors = ["Stephen Kinyua <kinyuamunene.km@gmail.com>"]
+readme = "README.md"
+packages = [{include = "dj_hello_world"}]
+
+[tool.poetry.dependencies]
+python = "^3.10"
+Django = "^4.2.2"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
