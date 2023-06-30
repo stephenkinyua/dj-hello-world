@@ -9,6 +9,7 @@ packages = [{include = "dj_hello_world"}]
 [tool.poetry.dependencies]
 python = "^3.10"
 Django = "^4.2.2"
+gunicorn = "^20.1.0"
 
 
 [build-system]
